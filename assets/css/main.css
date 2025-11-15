@@ -1,7 +1,44 @@
 body {
-  margin: 0;
+  background-color: #3b1f41;
+  font-family: system-ui;
 }
 
+h2 {
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.intro {
+  padding-left: 30px;
+  border-left: 1px solid #000;
+  text-align: justify;
+}
+/************************container2**************************************/
+.container2 {
+  background-color: #f8f6f6;
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  padding: 50px;
+  box-shadow: 0 10px 50px #000000;
+  display: grid;
+  grid-template-columns: 35% 60%;
+  column-gap: 5%;
+  row-gap: 30px;
+}
+/************************avatar**************************************/
+.avatar img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
 /************************Hàng 1**************************************/
 #header1 {
   width: 100%;
@@ -21,8 +58,8 @@ body {
 
 /* phần container nằm bên phải */
 #menutop .container {
-  /* padding: 10px 20px;
-  border-radius: 4px; */
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 
 #mnu1 {
@@ -65,7 +102,7 @@ body {
 }
 
 #logo {
-  width: 182;
+  width: 182px;
 }
 
 /* Bỏ dấu chấm và khoảng cách mặc định */
@@ -110,6 +147,18 @@ body {
   background-color: beige;
 }
 
+/************************info**************************************/
+.info {
+  text-align: right;
+}
+
+.info ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  line-height: 30px;
+}
 /*****************************kĩ năng**************************/
 .experience {
   text-align: right;
